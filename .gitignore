@@ -1,0 +1,8 @@
+*.exe
+*.o
+*.out
+program
+Dataset/
+Checkpoints/*.bin
+*.txt
+*.json
