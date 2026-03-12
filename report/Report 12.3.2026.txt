@@ -1,0 +1,315 @@
+--- STARTING TRAINING ON TRAINING SET ---
+[Program] Enter epochs: 200
+[Dataset] Scanning directory: Dataset/Dataset_10/train...
+[Dataset] Split -> Train: 40000 images | Validation: 10000 images.
+[Convolution] Loaded weights from Checkpoints/convolution_kernel_1.bin
+[Convolution] Loaded weights from Checkpoints/convolution_kernel_2.bin
+[Epoch 1/200] T-Loss: 1.8519 | T-Acc: 32.73% || V-Loss: 1.4972 | V-Acc: 45.59% | Time: 17401 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.50)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 2/200] T-Loss: 1.4882 | T-Acc: 46.18% || V-Loss: 1.2937 | V-Acc: 54.26% | Time: 16682 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.29)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 3/200] T-Loss: 1.3596 | T-Acc: 51.60% || V-Loss: 1.2458 | V-Acc: 55.93% | Time: 17334 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.25)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 4/200] T-Loss: 1.3007 | T-Acc: 53.79% || V-Loss: 1.2315 | V-Acc: 56.92% | Time: 17114 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.23)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 5/200] T-Loss: 1.2656 | T-Acc: 55.06% || V-Loss: 1.1074 | V-Acc: 60.92% | Time: 16723 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.11)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 6/200] T-Loss: 1.2455 | T-Acc: 55.81% || V-Loss: 1.1454 | V-Acc: 59.32% | Time: 16677 ms --> [Early Stopping] Patience: 1/20
+[Epoch 7/200] T-Loss: 1.2247 | T-Acc: 56.84% || V-Loss: 1.1019 | V-Acc: 62.18% | Time: 17572 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.10)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 8/200] T-Loss: 1.2052 | T-Acc: 57.61% || V-Loss: 1.1472 | V-Acc: 59.59% | Time: 18048 ms --> [Early Stopping] Patience: 1/20
+[Epoch 9/200] T-Loss: 1.1875 | T-Acc: 58.31% || V-Loss: 1.0750 | V-Acc: 62.52% | Time: 18024 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.08)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 10/200] T-Loss: 1.1818 | T-Acc: 58.18% || V-Loss: 1.0963 | V-Acc: 62.22% | Time: 17029 ms --> [Early Stopping] Patience: 1/20
+[Epoch 11/200] T-Loss: 1.1678 | T-Acc: 59.35% || V-Loss: 1.1237 | V-Acc: 61.48% | Time: 17932 ms --> [Early Stopping] Patience: 2/20
+[Epoch 12/200] T-Loss: 1.1535 | T-Acc: 59.52% || V-Loss: 1.2031 | V-Acc: 59.40% | Time: 17531 ms --> [Early Stopping] Patience: 3/20
+[Epoch 13/200] T-Loss: 1.1453 | T-Acc: 59.93% || V-Loss: 1.0995 | V-Acc: 61.78% | Time: 17857 ms --> [Early Stopping] Patience: 4/20
+[Epoch 14/200] T-Loss: 1.1350 | T-Acc: 60.38% || V-Loss: 1.0996 | V-Acc: 62.66% | Time: 17660 ms --> [Early Stopping] Patience: 5/20
+[Epoch 15/200] T-Loss: 1.1417 | T-Acc: 60.17% || V-Loss: 1.0600 | V-Acc: 63.19% | Time: 17936 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.06)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+
+[Scheduler] Learning Rate decayed to: 0.000500
+[Epoch 16/200] T-Loss: 1.0474 | T-Acc: 63.21% || V-Loss: 1.0408 | V-Acc: 64.41% | Time: 18049 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.04)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 17/200] T-Loss: 1.0337 | T-Acc: 63.64% || V-Loss: 1.0155 | V-Acc: 65.58% | Time: 16676 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 1.02)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 18/200] T-Loss: 1.0181 | T-Acc: 64.25% || V-Loss: 0.9831 | V-Acc: 65.79% | Time: 17749 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.98)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 19/200] T-Loss: 1.0136 | T-Acc: 64.58% || V-Loss: 0.9803 | V-Acc: 65.96% | Time: 17987 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.98)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 20/200] T-Loss: 1.0088 | T-Acc: 64.45% || V-Loss: 0.9612 | V-Acc: 66.77% | Time: 18022 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.96)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 21/200] T-Loss: 0.9970 | T-Acc: 64.97% || V-Loss: 1.0139 | V-Acc: 64.90% | Time: 17883 ms --> [Early Stopping] Patience: 1/20
+[Epoch 22/200] T-Loss: 0.9965 | T-Acc: 65.02% || V-Loss: 0.9637 | V-Acc: 66.96% | Time: 17636 ms --> [Early Stopping] Patience: 2/20
+[Epoch 23/200] T-Loss: 0.9854 | T-Acc: 65.46% || V-Loss: 0.9606 | V-Acc: 66.70% | Time: 17604 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.96)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 24/200] T-Loss: 0.9813 | T-Acc: 65.90% || V-Loss: 0.9724 | V-Acc: 66.43% | Time: 17764 ms --> [Early Stopping] Patience: 1/20
+[Epoch 25/200] T-Loss: 0.9792 | T-Acc: 65.94% || V-Loss: 0.9769 | V-Acc: 66.19% | Time: 17193 ms --> [Early Stopping] Patience: 2/20
+[Epoch 26/200] T-Loss: 0.9797 | T-Acc: 65.57% || V-Loss: 0.9849 | V-Acc: 66.24% | Time: 16953 ms --> [Early Stopping] Patience: 3/20
+[Epoch 27/200] T-Loss: 0.9767 | T-Acc: 65.90% || V-Loss: 0.9816 | V-Acc: 66.54% | Time: 16744 ms --> [Early Stopping] Patience: 4/20
+[Epoch 28/200] T-Loss: 0.9735 | T-Acc: 66.00% || V-Loss: 0.9541 | V-Acc: 66.93% | Time: 16733 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.95)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 29/200] T-Loss: 0.9632 | T-Acc: 66.22% || V-Loss: 0.9526 | V-Acc: 67.09% | Time: 17379 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.95)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 30/200] T-Loss: 0.9645 | T-Acc: 66.28% || V-Loss: 0.9601 | V-Acc: 66.90% | Time: 17990 ms --> [Early Stopping] Patience: 1/20
+
+[Scheduler] Learning Rate decayed to: 0.000250
+[Epoch 31/200] T-Loss: 0.8989 | T-Acc: 68.61% || V-Loss: 0.9198 | V-Acc: 68.70% | Time: 18020 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.92)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 32/200] T-Loss: 0.8943 | T-Acc: 68.67% || V-Loss: 0.9139 | V-Acc: 68.64% | Time: 17975 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.91)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 33/200] T-Loss: 0.8907 | T-Acc: 68.97% || V-Loss: 0.9038 | V-Acc: 69.66% | Time: 17214 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.90)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 34/200] T-Loss: 0.8798 | T-Acc: 69.13% || V-Loss: 0.9079 | V-Acc: 68.96% | Time: 17820 ms --> [Early Stopping] Patience: 1/20
+[Epoch 35/200] T-Loss: 0.8860 | T-Acc: 68.81% || V-Loss: 0.9353 | V-Acc: 67.68% | Time: 17333 ms --> [Early Stopping] Patience: 2/20
+[Epoch 36/200] T-Loss: 0.8766 | T-Acc: 69.21% || V-Loss: 0.9027 | V-Acc: 68.67% | Time: 17638 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.90)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 37/200] T-Loss: 0.8729 | T-Acc: 69.48% || V-Loss: 0.9038 | V-Acc: 68.83% | Time: 17914 ms --> [Early Stopping] Patience: 1/20
+[Epoch 38/200] T-Loss: 0.8667 | T-Acc: 69.54% || V-Loss: 0.9391 | V-Acc: 68.07% | Time: 17411 ms --> [Early Stopping] Patience: 2/20
+[Epoch 39/200] T-Loss: 0.8654 | T-Acc: 69.67% || V-Loss: 0.9318 | V-Acc: 68.59% | Time: 18000 ms --> [Early Stopping] Patience: 3/20
+[Epoch 40/200] T-Loss: 0.8657 | T-Acc: 69.54% || V-Loss: 0.9028 | V-Acc: 69.17% | Time: 17952 ms --> [Early Stopping] Patience: 4/20
+[Epoch 41/200] T-Loss: 0.8599 | T-Acc: 69.70% || V-Loss: 0.9058 | V-Acc: 69.30% | Time: 18043 ms --> [Early Stopping] Patience: 5/20
+[Epoch 42/200] T-Loss: 0.8624 | T-Acc: 69.85% || V-Loss: 0.9239 | V-Acc: 68.52% | Time: 16871 ms --> [Early Stopping] Patience: 6/20
+[Epoch 43/200] T-Loss: 0.8531 | T-Acc: 69.81% || V-Loss: 0.8972 | V-Acc: 69.57% | Time: 17467 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.90)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 44/200] T-Loss: 0.8536 | T-Acc: 70.00% || V-Loss: 0.9007 | V-Acc: 69.75% | Time: 17973 ms --> [Early Stopping] Patience: 1/20
+[Epoch 45/200] T-Loss: 0.8483 | T-Acc: 70.13% || V-Loss: 0.9009 | V-Acc: 69.51% | Time: 17926 ms --> [Early Stopping] Patience: 2/20
+
+[Scheduler] Learning Rate decayed to: 0.000125
+[Epoch 46/200] T-Loss: 0.8206 | T-Acc: 71.29% || V-Loss: 0.8784 | V-Acc: 70.29% | Time: 17118 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.88)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 47/200] T-Loss: 0.8057 | T-Acc: 71.83% || V-Loss: 0.9056 | V-Acc: 69.61% | Time: 17701 ms --> [Early Stopping] Patience: 1/20
+[Epoch 48/200] T-Loss: 0.8103 | T-Acc: 71.65% || V-Loss: 0.8797 | V-Acc: 70.50% | Time: 18206 ms --> [Early Stopping] Patience: 2/20
+[Epoch 49/200] T-Loss: 0.8067 | T-Acc: 71.87% || V-Loss: 0.8807 | V-Acc: 70.36% | Time: 17848 ms --> [Early Stopping] Patience: 3/20
+[Epoch 50/200] T-Loss: 0.8041 | T-Acc: 71.83% || V-Loss: 0.9113 | V-Acc: 69.46% | Time: 18010 ms --> [Early Stopping] Patience: 4/20
+[Epoch 51/200] T-Loss: 0.7956 | T-Acc: 72.23% || V-Loss: 0.8917 | V-Acc: 70.06% | Time: 17615 ms --> [Early Stopping] Patience: 5/20
+[Epoch 52/200] T-Loss: 0.8005 | T-Acc: 71.83% || V-Loss: 0.8932 | V-Acc: 70.06% | Time: 17640 ms --> [Early Stopping] Patience: 6/20
+[Epoch 53/200] T-Loss: 0.7922 | T-Acc: 72.46% || V-Loss: 0.8839 | V-Acc: 70.26% | Time: 17670 ms --> [Early Stopping] Patience: 7/20
+[Epoch 54/200] T-Loss: 0.7910 | T-Acc: 72.18% || V-Loss: 0.8884 | V-Acc: 70.30% | Time: 17854 ms --> [Early Stopping] Patience: 8/20
+[Epoch 55/200] T-Loss: 0.7935 | T-Acc: 72.32% || V-Loss: 0.8884 | V-Acc: 70.17% | Time: 16968 ms --> [Early Stopping] Patience: 9/20
+[Epoch 56/200] T-Loss: 0.7901 | T-Acc: 72.06% || V-Loss: 0.8866 | V-Acc: 70.44% | Time: 16978 ms --> [Early Stopping] Patience: 10/20
+[Epoch 57/200] T-Loss: 0.7962 | T-Acc: 72.35% || V-Loss: 0.8839 | V-Acc: 70.39% | Time: 17288 ms --> [Early Stopping] Patience: 11/20
+[Epoch 58/200] T-Loss: 0.7816 | T-Acc: 72.60% || V-Loss: 0.8842 | V-Acc: 70.50% | Time: 17304 ms --> [Early Stopping] Patience: 12/20
+[Epoch 59/200] T-Loss: 0.7841 | T-Acc: 72.69% || V-Loss: 0.8936 | V-Acc: 69.99% | Time: 18014 ms --> [Early Stopping] Patience: 13/20
+[Epoch 60/200] T-Loss: 0.7788 | T-Acc: 72.50% || V-Loss: 0.8670 | V-Acc: 70.80% | Time: 18188 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.87)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+
+[Scheduler] Learning Rate decayed to: 0.000063
+[Epoch 61/200] T-Loss: 0.7648 | T-Acc: 73.33% || V-Loss: 0.8774 | V-Acc: 70.45% | Time: 17582 ms --> [Early Stopping] Patience: 1/20
+[Epoch 62/200] T-Loss: 0.7589 | T-Acc: 73.23% || V-Loss: 0.8846 | V-Acc: 70.80% | Time: 16944 ms --> [Early Stopping] Patience: 2/20
+[Epoch 63/200] T-Loss: 0.7591 | T-Acc: 73.52% || V-Loss: 0.8808 | V-Acc: 70.77% | Time: 18183 ms --> [Early Stopping] Patience: 3/20
+[Epoch 64/200] T-Loss: 0.7628 | T-Acc: 73.40% || V-Loss: 0.8732 | V-Acc: 70.88% | Time: 17330 ms --> [Early Stopping] Patience: 4/20
+[Epoch 65/200] T-Loss: 0.7550 | T-Acc: 73.59% || V-Loss: 0.8672 | V-Acc: 71.08% | Time: 17156 ms --> [Early Stopping] Patience: 5/20
+[Epoch 66/200] T-Loss: 0.7545 | T-Acc: 73.46% || V-Loss: 0.8835 | V-Acc: 70.78% | Time: 17012 ms --> [Early Stopping] Patience: 6/20
+[Epoch 67/200] T-Loss: 0.7568 | T-Acc: 73.32% || V-Loss: 0.8693 | V-Acc: 70.88% | Time: 18098 ms --> [Early Stopping] Patience: 7/20
+[Epoch 68/200] T-Loss: 0.7553 | T-Acc: 73.34% || V-Loss: 0.8773 | V-Acc: 70.85% | Time: 18116 ms --> [Early Stopping] Patience: 8/20
+[Epoch 69/200] T-Loss: 0.7479 | T-Acc: 73.83% || V-Loss: 0.8777 | V-Acc: 70.73% | Time: 18102 ms --> [Early Stopping] Patience: 9/20
+[Epoch 70/200] T-Loss: 0.7498 | T-Acc: 73.76% || V-Loss: 0.8719 | V-Acc: 71.40% | Time: 17949 ms --> [Early Stopping] Patience: 10/20
+[Epoch 71/200] T-Loss: 0.7465 | T-Acc: 73.91% || V-Loss: 0.8736 | V-Acc: 71.02% | Time: 16720 ms --> [Early Stopping] Patience: 11/20
+[Epoch 72/200] T-Loss: 0.7459 | T-Acc: 73.81% || V-Loss: 0.8662 | V-Acc: 71.17% | Time: 16974 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.87)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 73/200] T-Loss: 0.7497 | T-Acc: 73.71% || V-Loss: 0.8726 | V-Acc: 70.82% | Time: 17257 ms --> [Early Stopping] Patience: 1/20
+[Epoch 74/200] T-Loss: 0.7474 | T-Acc: 74.05% || V-Loss: 0.8813 | V-Acc: 71.04% | Time: 18141 ms --> [Early Stopping] Patience: 2/20
+[Epoch 75/200] T-Loss: 0.7467 | T-Acc: 73.82% || V-Loss: 0.8794 | V-Acc: 70.97% | Time: 17989 ms --> [Early Stopping] Patience: 3/20
+
+[Scheduler] Learning Rate decayed to: 0.000031
+[Epoch 76/200] T-Loss: 0.7339 | T-Acc: 74.28% || V-Loss: 0.8715 | V-Acc: 71.13% | Time: 17199 ms --> [Early Stopping] Patience: 4/20
+[Epoch 77/200] T-Loss: 0.7271 | T-Acc: 74.38% || V-Loss: 0.8664 | V-Acc: 70.94% | Time: 18056 ms --> [Early Stopping] Patience: 5/20
+[Epoch 78/200] T-Loss: 0.7326 | T-Acc: 74.33% || V-Loss: 0.8784 | V-Acc: 71.15% | Time: 18083 ms --> [Early Stopping] Patience: 6/20
+[Epoch 79/200] T-Loss: 0.7284 | T-Acc: 74.68% || V-Loss: 0.8616 | V-Acc: 71.38% | Time: 18026 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.86)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 80/200] T-Loss: 0.7308 | T-Acc: 74.32% || V-Loss: 0.8747 | V-Acc: 71.29% | Time: 16850 ms --> [Early Stopping] Patience: 1/20
+[Epoch 81/200] T-Loss: 0.7305 | T-Acc: 74.32% || V-Loss: 0.8728 | V-Acc: 71.45% | Time: 17159 ms --> [Early Stopping] Patience: 2/20
+[Epoch 82/200] T-Loss: 0.7286 | T-Acc: 74.42% || V-Loss: 0.8663 | V-Acc: 70.85% | Time: 16733 ms --> [Early Stopping] Patience: 3/20
+[Epoch 83/200] T-Loss: 0.7288 | T-Acc: 74.22% || V-Loss: 0.8727 | V-Acc: 71.20% | Time: 16738 ms --> [Early Stopping] Patience: 4/20
+[Epoch 84/200] T-Loss: 0.7253 | T-Acc: 74.50% || V-Loss: 0.8641 | V-Acc: 71.34% | Time: 16722 ms --> [Early Stopping] Patience: 5/20
+[Epoch 85/200] T-Loss: 0.7247 | T-Acc: 74.53% || V-Loss: 0.8686 | V-Acc: 71.27% | Time: 17361 ms --> [Early Stopping] Patience: 6/20
+[Epoch 86/200] T-Loss: 0.7249 | T-Acc: 74.47% || V-Loss: 0.8693 | V-Acc: 71.53% | Time: 17588 ms --> [Early Stopping] Patience: 7/20
+[Epoch 87/200] T-Loss: 0.7307 | T-Acc: 74.42% || V-Loss: 0.8635 | V-Acc: 71.26% | Time: 16703 ms --> [Early Stopping] Patience: 8/20
+[Epoch 88/200] T-Loss: 0.7289 | T-Acc: 74.49% || V-Loss: 0.8734 | V-Acc: 71.48% | Time: 16699 ms --> [Early Stopping] Patience: 9/20
+[Epoch 89/200] T-Loss: 0.7257 | T-Acc: 74.59% || V-Loss: 0.8709 | V-Acc: 71.47% | Time: 17809 ms --> [Early Stopping] Patience: 10/20
+[Epoch 90/200] T-Loss: 0.7234 | T-Acc: 74.40% || V-Loss: 0.8690 | V-Acc: 71.49% | Time: 17770 ms --> [Early Stopping] Patience: 11/20
+
+[Scheduler] Learning Rate decayed to: 0.000016
+[Epoch 91/200] T-Loss: 0.7155 | T-Acc: 74.82% || V-Loss: 0.8743 | V-Acc: 71.36% | Time: 18103 ms --> [Early Stopping] Patience: 12/20
+[Epoch 92/200] T-Loss: 0.7170 | T-Acc: 74.78% || V-Loss: 0.8685 | V-Acc: 70.91% | Time: 17390 ms --> [Early Stopping] Patience: 13/20
+[Epoch 93/200] T-Loss: 0.7171 | T-Acc: 74.85% || V-Loss: 0.8628 | V-Acc: 71.35% | Time: 17275 ms --> [Early Stopping] Patience: 14/20
+[Epoch 94/200] T-Loss: 0.7079 | T-Acc: 74.89% || V-Loss: 0.8662 | V-Acc: 71.52% | Time: 18128 ms --> [Early Stopping] Patience: 15/20
+[Epoch 95/200] T-Loss: 0.7231 | T-Acc: 74.71% || V-Loss: 0.8586 | V-Acc: 71.81% | Time: 17133 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.86)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 96/200] T-Loss: 0.7110 | T-Acc: 74.96% || V-Loss: 0.8644 | V-Acc: 71.58% | Time: 18135 ms --> [Early Stopping] Patience: 1/20
+[Epoch 97/200] T-Loss: 0.7140 | T-Acc: 74.90% || V-Loss: 0.8697 | V-Acc: 71.47% | Time: 18102 ms --> [Early Stopping] Patience: 2/20
+[Epoch 98/200] T-Loss: 0.7157 | T-Acc: 74.89% || V-Loss: 0.8607 | V-Acc: 71.40% | Time: 18006 ms --> [Early Stopping] Patience: 3/20
+[Epoch 99/200] T-Loss: 0.7108 | T-Acc: 75.07% || V-Loss: 0.8651 | V-Acc: 71.69% | Time: 16940 ms --> [Early Stopping] Patience: 4/20
+[Epoch 100/200] T-Loss: 0.7130 | T-Acc: 75.09% || V-Loss: 0.8728 | V-Acc: 71.23% | Time: 17526 ms --> [Early Stopping] Patience: 5/20
+[Epoch 101/200] T-Loss: 0.7120 | T-Acc: 75.01% || V-Loss: 0.8679 | V-Acc: 71.49% | Time: 18062 ms --> [Early Stopping] Patience: 6/20
+[Epoch 102/200] T-Loss: 0.7123 | T-Acc: 75.03% || V-Loss: 0.8611 | V-Acc: 71.35% | Time: 17646 ms --> [Early Stopping] Patience: 7/20
+[Epoch 103/200] T-Loss: 0.7101 | T-Acc: 75.02% || V-Loss: 0.8695 | V-Acc: 71.41% | Time: 17176 ms --> [Early Stopping] Patience: 8/20
+[Epoch 104/200] T-Loss: 0.7106 | T-Acc: 75.07% || V-Loss: 0.8683 | V-Acc: 71.25% | Time: 17906 ms --> [Early Stopping] Patience: 9/20
+[Epoch 105/200] T-Loss: 0.7104 | T-Acc: 75.04% || V-Loss: 0.8674 | V-Acc: 71.60% | Time: 17573 ms --> [Early Stopping] Patience: 10/20
+
+[Scheduler] Learning Rate decayed to: 0.000008
+[Epoch 106/200] T-Loss: 0.7086 | T-Acc: 75.08% || V-Loss: 0.8648 | V-Acc: 71.54% | Time: 16722 ms --> [Early Stopping] Patience: 11/20
+[Epoch 107/200] T-Loss: 0.7094 | T-Acc: 75.17% || V-Loss: 0.8635 | V-Acc: 71.38% | Time: 17650 ms --> [Early Stopping] Patience: 12/20
+[Epoch 108/200] T-Loss: 0.7124 | T-Acc: 74.99% || V-Loss: 0.8566 | V-Acc: 71.52% | Time: 18019 ms --> [Early Stopping] New Best Model Saved! (V-Loss: 0.86)
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_1.bin
+[Convolution] Saved updated weights and biases to Checkpoints/convolution_kernel_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_1.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_2.bin
+[Linear] Saved updated weights and biases to Checkpoints/linear_3.bin
+[Model] All model checkpoints saved successfully!
+[Epoch 109/200] T-Loss: 0.7065 | T-Acc: 75.14% || V-Loss: 0.8699 | V-Acc: 71.59% | Time: 17136 ms --> [Early Stopping] Patience: 1/20
+[Epoch 110/200] T-Loss: 0.7052 | T-Acc: 75.36% || V-Loss: 0.8637 | V-Acc: 71.66% | Time: 17382 ms --> [Early Stopping] Patience: 2/20
+[Epoch 111/200] T-Loss: 0.7075 | T-Acc: 75.19% || V-Loss: 0.8621 | V-Acc: 71.60% | Time: 16993 ms --> [Early Stopping] Patience: 3/20
+[Epoch 112/200] T-Loss: 0.7118 | T-Acc: 75.14% || V-Loss: 0.8672 | V-Acc: 71.48% | Time: 17554 ms --> [Early Stopping] Patience: 4/20
+[Epoch 113/200] T-Loss: 0.7046 | T-Acc: 75.15% || V-Loss: 0.8600 | V-Acc: 71.57% | Time: 17742 ms --> [Early Stopping] Patience: 5/20
+[Epoch 114/200] T-Loss: 0.7097 | T-Acc: 75.14% || V-Loss: 0.8709 | V-Acc: 71.46% | Time: 16685 ms --> [Early Stopping] Patience: 6/20
+[Epoch 115/200] T-Loss: 0.7050 | T-Acc: 75.05% || V-Loss: 0.8656 | V-Acc: 71.64% | Time: 17224 ms --> [Early Stopping] Patience: 7/20
+[Epoch 116/200] T-Loss: 0.7030 | T-Acc: 75.28% || V-Loss: 0.8608 | V-Acc: 71.88% | Time: 17341 ms --> [Early Stopping] Patience: 8/20
+[Epoch 117/200] T-Loss: 0.7104 | T-Acc: 75.04% || V-Loss: 0.8573 | V-Acc: 71.97% | Time: 16684 ms --> [Early Stopping] Patience: 9/20
+[Epoch 118/200] T-Loss: 0.7053 | T-Acc: 75.50% || V-Loss: 0.8698 | V-Acc: 71.32% | Time: 17430 ms --> [Early Stopping] Patience: 10/20
+[Epoch 119/200] T-Loss: 0.7056 | T-Acc: 74.99% || V-Loss: 0.8625 | V-Acc: 71.37% | Time: 17296 ms --> [Early Stopping] Patience: 11/20
+[Epoch 120/200] T-Loss: 0.7092 | T-Acc: 75.09% || V-Loss: 0.8636 | V-Acc: 71.75% | Time: 16837 ms --> [Early Stopping] Patience: 12/20
+
+[Scheduler] Learning Rate decayed to: 0.000004
+[Epoch 121/200] T-Loss: 0.7009 | T-Acc: 75.38% || V-Loss: 0.8604 | V-Acc: 71.83% | Time: 16755 ms --> [Early Stopping] Patience: 13/20
+[Epoch 122/200] T-Loss: 0.7014 | T-Acc: 75.56% || V-Loss: 0.8621 | V-Acc: 71.48% | Time: 16691 ms --> [Early Stopping] Patience: 14/20
+[Epoch 123/200] T-Loss: 0.6959 | T-Acc: 75.75% || V-Loss: 0.8617 | V-Acc: 71.34% | Time: 16711 ms --> [Early Stopping] Patience: 15/20
+[Epoch 124/200] T-Loss: 0.7079 | T-Acc: 75.18% || V-Loss: 0.8634 | V-Acc: 71.68% | Time: 17156 ms --> [Early Stopping] Patience: 16/20
+[Epoch 125/200] T-Loss: 0.7024 | T-Acc: 75.49% || V-Loss: 0.8694 | V-Acc: 71.43% | Time: 17554 ms --> [Early Stopping] Patience: 17/20
+[Epoch 126/200] T-Loss: 0.6988 | T-Acc: 75.48% || V-Loss: 0.8690 | V-Acc: 71.64% | Time: 16706 ms --> [Early Stopping] Patience: 18/20
+[Epoch 127/200] T-Loss: 0.7128 | T-Acc: 75.14% || V-Loss: 0.8674 | V-Acc: 71.27% | Time: 16673 ms --> [Early Stopping] Patience: 19/20
+[Epoch 128/200] T-Loss: 0.7009 | T-Acc: 75.42% || V-Loss: 0.8598 | V-Acc: 71.80% | Time: 16697 ms --> [Early Stopping] Patience: 20/20
+
+[Early Stopping] Triggered! Training aborted to prevent overfitting.
+Time: 2236 s

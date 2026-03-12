@@ -6,3 +6,6 @@ Dataset/
 Checkpoints/*.bin
 *.txt
 *.json
+
+!report/*.txt
+!report/*.json
