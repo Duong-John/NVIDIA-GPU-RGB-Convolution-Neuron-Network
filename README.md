@@ -42,6 +42,7 @@ Ensure deallocation in VRAM after the Model terminated to prevent memory leak.
 ## Demo:
 Press the video below to see how to run the project.
 > **Note**: This video was recorded by Clipchamp, which was using some GPU resources at the time of recording, so the program executed more slowly than normal.
+
 [![Test Video](report/Screen.png)](https://youtu.be/qIfoXoPS5Pk?si=FiXC_C_kWZkik296)
 
 ## Result:
