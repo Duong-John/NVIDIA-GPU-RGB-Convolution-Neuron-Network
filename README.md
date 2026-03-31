@@ -24,7 +24,7 @@ This is a small, simple, solo, and personal project, which I attempt to gain ins
 ## Demo:
 Press the video below to see how to run the project.
 > **Note**: This video was recorded by Clipchamp, which was using some GPU resources at the time of recording, so the program executed more slowly than normal.
-
+[![Test Video](report/Screen.png)](https://youtu.be/qIfoXoPS5Pk?si=FiXC_C_kWZkik296)
 ## How to run:
 0. **Important Reminder**: This version of CNN only runs on Windows, not the WSL subsystem or Linux.
 1. Check if your device has ```make``` on PowerShell or Command Prompt:
