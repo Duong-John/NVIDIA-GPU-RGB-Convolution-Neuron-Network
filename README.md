@@ -2,14 +2,7 @@
 This is a small, simple, solo, and personal project, which I attempt to gain insight into some features of coding on a GPU (NVIDIA GPU specifically) and try to reimplement the renowned Convolution Neural Network. The current version here is NOT optimized yet (in the Kernel aspect), so in the future, maybe it will be reviewed and upgraded when I acquire enough knowledge. The origin of this project is another project that I reimplemented the whole structure of the traditional Convolution Neuron Network using C++ Xtensor. This latest version is just the transformation from sequential execution to parallel calculation.
 
 ## Main Feature:
-* **The current version supports some layers**:
-**Convolution
-**Max Pooling
-**Linear
-**ReLU (Leaky ReLU)
-**Softmax
-**Dropout (with input percentage)
-
+* **The current version supports some layers**: Convolution, Max Pooling, Linear, ReLU (Leaky ReLU), Softmax, Dropout (with input percentage).
 * **Dataset link**: https://www.kaggle.com/c/cifar-10
 - When starting, the program automatically creates and shuffles the Dataset from the folder /Dataset (CIFAR-10) with 10 classes. The dataset contains 60.000 images, of which 50.000 are training images and the rest are testing images.
 * **Checkpoints**: Weights and Biases are stored in binary files in the folder /Checkpoints, and they are automatically saved and written into the files every time the latest Validation Loss is improved.
@@ -26,15 +19,15 @@ This is a small, simple, solo, and personal project, which I attempt to gain ins
 * **Visualization**: using pure SDL2 to create many Windows to visualize every kernel in the Model.
 * **Tool of cuBLAS**: utilizing matrix multiplication tools (which read a matrix in column major) to calculate at the Linear Layer.
 * **Syntax**: The model is only tested to be run on the Windows environment and Visual Studio Code specifically, so I can not use the common syntax such as ```saxpy<<<blocksPerGrid, threadsPerBlock>>>(N, a, d_x, d_y);```. Instead, the CPP acts as a front-end, and the CU acts as a Back-end. The CPP will have to use a Driver_Singleton to load a function in CU, and it is called through a the bult-in function ```CUresult res = cuLaunchKernel(k_conv_forward, grid.x, grid.y, grid.z, block.x, block.y, block.z, 0, 0,&nbsp; args, 0 );```
-* **Memory leak on RAM & VRAM**: Ensure deallocation in VRAM after the Model terminated to prevent potential memory leaks.
+* **Memory leak on RAM & VRAM**: Ensure deallocation in VRAM after the model terminates to prevent potential memory leaks.
 
 ## Demo:
 Press the video below to see how to run the project.
 > **Note**: This video was recorded by Clipchamp, which was using some GPU resources at the time of recording, so the program executed more slowly than normal.
 
 ## How to run:
-0. **Important Reminder**: This version of CNN only runs on Windows, not WSL subsystem or Linux.
-1. Check if your device has ```make``` on Poweshell or Command Prompt:
+0. **Important Reminder**: This version of CNN only runs on Windows, not the WSL subsystem or Linux.
+1. Check if your device has ```make``` on PowerShell or Command Prompt:
    ```bash
     make --version
     ```
