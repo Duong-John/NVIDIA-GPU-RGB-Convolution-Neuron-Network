@@ -61,8 +61,8 @@ Press the video below to see how to run the project.
 ![Run-time GPU Usage](report/GPUreport.png)
 
 ## Visualization:
-![Image of 64 kenrels of the 1st Convolution Layer](report/64_kerenls.png)
-![Image of 128 kenrels of the 1st Convolution Layer](report/128_kerenls.png)
+![Image of 64 kenrels of the 1st Convolution Layer](report/64_kernels.png)
+![Image of 128 kenrels of the 1st Convolution Layer](report/128_kernels.png)
 
 
 > **Note**: More details in the near future
