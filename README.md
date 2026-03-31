@@ -31,10 +31,7 @@ Press the video below to see how to run the project.
    ```bash
     make --version
     ```
-   
-1.1. If you haven't installed ```make``` yet, try this: https://stackoverflow.com/questions/32127524/how-can-i-install-and-use-make-in-windows
-
-1.2. Or you can use ```choco``` or ```scoop```.
+   If you haven't installed ```make``` yet, you can use ```choco``` or ```scoop``` , or try this: https://stackoverflow.com/questions/32127524/how-can-i-install-and-use-make-in-windows
 
 2. Choose your desired option by altering defines in ```Program.cpp```:
 | Define | Description |
@@ -51,7 +48,7 @@ Press the video below to see how to run the project.
     make all
   ```
 
-3.1. You can delete all the 'object' and 'dynamic library' files:
+   You can delete all the 'object' and 'dynamic library' files:
   ```bash
     make clean
   ```
