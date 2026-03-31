@@ -3,12 +3,12 @@ This is a small, simple, solo, and personal project, which I attempt to gain ins
 
 ## Main Feature:
 * **The current version supports some layers**:
-- Convolution
-- Max Pooling
-- Linear
-- ReLU (Leaky ReLU)
-- Softmax
-- Dropout (with input percentage)
+**Convolution
+**Max Pooling
+**Linear
+**ReLU (Leaky ReLU)
+**Softmax
+**Dropout (with input percentage)
 
 * **Dataset link**: https://www.kaggle.com/c/cifar-10
 - When starting, the program automatically creates and shuffles the Dataset from the folder /Dataset (CIFAR-10) with 10 classes. The dataset contains 60.000 images, of which 50.000 are training images and the rest are testing images.
