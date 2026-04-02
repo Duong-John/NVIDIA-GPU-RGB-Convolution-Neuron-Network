@@ -2,6 +2,7 @@
 #include "Visual.hpp"
 #include "Convolution.hpp"
 #include <chrono>
+#define FUTURE_FETCH
 
 // Model::Model(const std::string& dataset_path, int batch_size, int num_classes, float learning_rate)
 //     : dataset_path(dataset_path), batch_size(batch_size), num_classes(num_classes), optimizer(learning_rate)
@@ -99,14 +100,42 @@ void Model::train(int epochs)
         int train_correct = 0;       
         int total_train_samples = 0; 
 
+        // Get batch before the first iteration occur
+        // auto X_batch = dataset.get_batch(i, batch_size, false); //start index "i" is 0
+#ifdef FUTURE_FETCH
+        std::future<std::pair<xt::xarray<float>, xt::xarray<int>>> future_batch;
+
+        if(train_size > 0)
+        {
+            future_batch = std::async(std::launch::async, &Dataset::get_batch, &dataset, 0, batch_size, false);
+        }
+#endif
+
         for(int i = 0; i < train_size; i += batch_size)
         {
             auto start_batch = std::chrono::high_resolution_clock::now();
 
+#ifndef FUTURE_FETCH
+            // Get batch for training session (Old)
             auto X_batch = dataset.get_batch(i, batch_size, false);
             size_t last_batch = X_batch.first.shape()[0];
-
             size_t current_bytes = X_batch.first.size() * sizeof(float);
+#endif
+
+#ifdef FUTURE_FETCH
+            //Get future batch
+            auto X_batch = future_batch.get();
+            int next_i = i + batch_size;
+
+            // If it's the last batch, stop fetching
+            if (next_i < train_size) 
+            {
+                future_batch = std::async(std::launch::async, &Dataset::get_batch, &dataset, next_i, batch_size, false);
+            }
+
+            size_t last_batch = X_batch.first.shape()[0];
+            size_t current_bytes = X_batch.first.size() * sizeof(float);
+#endif
             if (buffer_size < current_bytes) 
             {
                 if (d_input_buffer) cudaFree(d_input_buffer);
@@ -187,12 +216,36 @@ void Model::train(int epochs)
         int total_val_samples = 0; 
         int val_batches = 0;
 
+#ifdef FUTURE_FETCH
+        std::future<std::pair<xt::xarray<float>, xt::xarray<int>>> future_val_batch;
+
+        if(val_size > 0)
+        {
+            future_val_batch = std::async(std::launch::async, &Dataset::get_batch, &dataset, 0, batch_size, true);
+        }
+#endif
+
         for(int i = 0; i < val_size; i += batch_size)
         {
+#ifndef FUTURE_FETCH
+
             auto X_batch = dataset.get_batch(i, batch_size, true);
             size_t last_batch = X_batch.first.shape()[0];
             size_t current_bytes = X_batch.first.size() * sizeof(float);
-            
+#endif
+
+#ifdef FUTURE_FETCH
+
+            //New future batch fetching
+            auto X_batch = future_val_batch.get();
+            int next_i = i + batch_size;
+            if(next_i < val_size)
+            {
+                future_val_batch = std::async(std::launch::async, &Dataset::get_batch, &dataset, next_i, batch_size, true);
+            }
+            size_t last_batch = X_batch.first.shape()[0];
+            size_t current_bytes = X_batch.first.size() * sizeof(float);
+#endif 
             cudaMemcpy(d_input_buffer, X_batch.first.data(), current_bytes, cudaMemcpyHostToDevice);
 
             float* output = d_input_buffer;
