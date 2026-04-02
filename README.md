@@ -13,6 +13,7 @@ This is a small, simple, solo, and personal project, which I attempt to gain ins
 
 ## Technical Feature:
 * **Build from Scratch**: Re-implemention of every action in multi-threading in C++ and parallel computing in CUDA C++.
+* **Get the batch for the next round**: Thanks to ```std::chrono``` and ```cudaEventRecord``` measurement, I was able to find out that data loading, although implemented in multi-threading, still took ~3.14ms to be done. On the other hand, the forwarding and backwarding took ~3.17 ms to run. So, the future batch fetching has been attached in order to get the batch of the next round of training, and the run_time of the decreased from ~3.14 + ~3.17 = ~6.31 to max(~3.14, ~3.17) = ~3.17. More details in Pull Request.
 * **Multi-threading**: The dataset is designed to take advantage of multi-threading in C/C++ so that it can gain some speed-up during the batch division process. SDL2 is chosen to use in Dataset to read images manually.
 * **Prevent data copying**: This project endeavors to keep the data on the VRAM of the GPU as long as possible to prevent data copying between Host (RAM &amp; CPU) and Device (VRAM &amp; GPU) due to the technical limitations of the throughput of the procedure.&nbsp;
 * **Streaming**: a loop iterates through each layer in order to update Weights and Biases, which is enhanced by using Streaming on the GPU.
