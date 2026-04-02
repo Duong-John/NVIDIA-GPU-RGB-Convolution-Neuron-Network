@@ -10,7 +10,7 @@
 #include <mutex>
 #include <filesystem>
 #include <stdexcept>
-
+#include <future>
 #include <cuda_runtime.h>
 #include <cuda.h>
 #include <cublas_v2.h>
