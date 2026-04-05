@@ -17,7 +17,7 @@ This is a small, simple, solo, and personal project, which I attempt to gain ins
 
 * **Mathematical basis**: During the process of working on the project, manual mathematical calculations were done to ensure the correctness of the theoretical fundamentals, and only then was the process of coding started.
 
-* **Visualization**: The project is also composed of some utility stuff and a Python program to "plot" the result and the visualization of every kernel included in each convolution layer.
+* **Visualization**: The project is also composed of some utility stuff and a Python program to "plot" the result, and C++ SDL2 for the visualization of every kernel included in each convolution layer.
 
 ## Technical Feature:
 * **Build from Scratch**: Re-implemention of every action in multi-threading in C++ and parallel computing in CUDA C++.
